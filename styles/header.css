@@ -5,7 +5,6 @@ header {
 
 header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -13,17 +12,8 @@ header .container {
   display: flex;
   gap: 32px;
   align-items: center;
-}
-
-#profile > div {
-  max-width: 384px;
-}
-
-#profile img {
-  width: 176px;
-  height: 176px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 100%;
+  justify-content: space-between;
 }
 
 #profile h1 {
@@ -46,4 +36,13 @@ header .container {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.about {
+  display: flex;
+}
+
+.aboutme {
+  padding: 0 2rem;
+  width: 26rem;
 }
